@@ -1,0 +1,6 @@
+service : {
+  getCurrentTime: () -> (int) query;
+  getGreeting: () -> (text) query;
+  getUpdateCount: () -> (nat) query;
+  setGreeting: (text) -> ();
+}
